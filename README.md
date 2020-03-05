@@ -1,3 +1,3 @@
 # E08b-Debugging
 
-Exersize to practice debugging. 8 errors found and corrected.
+Godot Debugging exersize from Indiana University's Game Technology class. 8 errors were found and corrected.
