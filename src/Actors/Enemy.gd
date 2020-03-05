@@ -16,6 +16,7 @@ func _physics_process(delta: float) -> void:
 	_velocity.y = move_and_slide(_velocity, FLOOR_NORMAL).y
 
 
+
 func _on_StompArea2D_area_entered(area: Area2D) -> void:
 	if area.global_position.y > stomp_area.global_position.y:
 		return
