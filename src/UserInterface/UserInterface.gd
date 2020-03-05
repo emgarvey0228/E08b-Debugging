@@ -1,6 +1,7 @@
 extends Node
 
 
+
 onready var scene_tree: SceneTree = get_tree()
 onready var score_label: Label = $Score
 onready var pause_overlay: ColorRect = $PauseOverlay
@@ -34,7 +35,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func update_interface() -> void:
-	score_label.Text = "Score: %s" % PlayerData.score
+	score_label.text = "Score: %s" % PlayerData.score
 
 
 func set_paused(value: bool) -> void:
